@@ -1,13 +1,13 @@
 import "./App.css";
 
-import InvestmentTable from "./components/InvestmentsTable/InvestmentsTable";
-import { INVESTMENTS } from "./components/InvestmentsTable/data";
+import RefundsTable from "./components/RefundsTable";
+import { INVESTMENTS } from "./components/RefundsTable/data";
 
 function App() {
   return (
     <>
       <h1>Further</h1>
-      <InvestmentTable data={INVESTMENTS}></InvestmentTable>
+      <RefundsTable data={INVESTMENTS}></RefundsTable>
     </>
   );
 }

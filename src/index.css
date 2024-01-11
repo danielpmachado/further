@@ -66,8 +66,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-td, th {
-  text-align: left;
-  padding-right: 10px;
-}

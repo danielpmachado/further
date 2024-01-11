@@ -1,11 +1,5 @@
 import { RefundRequest } from "../../types/request";
-
 import { isValidRefund } from "../../helpers/refund";
-
-import dayjs from "dayjs";
-import customParseFormat from "dayjs/plugin/customParseFormat";
-
-dayjs.extend(customParseFormat);
 
 import "./style.css";
 
